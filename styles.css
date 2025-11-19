@@ -7,10 +7,15 @@
     scroll-behavior: smooth;
 }
 body{
-    background-color: #faf2e7
+    background-color: #faf2e7;
+    padding-top: 76px;
 }
 h1, h2{
      font-family: "Calistoga";
+     color: #452511;
+}
+p{
+    color: black;
 }
 .logo{
     width: 120px;
@@ -24,5 +29,18 @@ h1, h2{
     color: #faf2e7;
 }
 .hero-button:hover{
-
+    background-color: #5a3419;
+    color: #faf2e7;
 }
+
+.menu-card {
+    background-color: #452511;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
