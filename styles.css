@@ -1,0 +1,28 @@
+ @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #faf2e7
+}
+h1, h2{
+     font-family: "Calistoga";
+}
+.logo{
+    width: 120px;
+}
+
+.custom-navbar {
+    background-color: #452511;
+}
+.hero-button{
+    background-color: #452511;
+    color: #faf2e7;
+}
+.hero-button:hover{
+
+}
