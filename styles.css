@@ -1,4 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+  
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 *{
     box-sizing: border-box;
@@ -8,22 +11,44 @@
 }
 body{
     background-color: #faf2e7;
-    padding-top: 76px;
+    padding-top: 60px;
+}
+h1{
+    color: #faf2e7;
+}
+h2{
+    color: #452615 ;
 }
 h1, h2{
      font-family: "Calistoga";
-     color: #452511;
+     
 }
 p{
-    color: black;
+    color: #452615;
+    font-family: "Fira Sans", sans-serif;
 }
 .logo{
-    width: 120px;
+    width: 200px;
 }
 
 .custom-navbar {
-    background-color: #452511;
+    background-color: #4a2411;
+    padding: 0.5rem 1rem;
 }
+
+.hero-bg {
+    background-image: url("./media/caudilloscafe/nosotros.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.4); 
+}
+.hero-text{
+    color: #faf2e7;
+}
+
 .hero-button{
     background-color: #452511;
     color: #faf2e7;
@@ -32,15 +57,165 @@ p{
     background-color: #5a3419;
     color: #faf2e7;
 }
+#nosotros, #menu{
+    padding-top: 8rem;    
+    padding-bottom: 8rem; 
+}
 
+.nosotros-foto{
+   
+}
 .menu-card {
     background-color: #452511;
     border: none;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.menu-card .price{
+    color: #faf2e7;
+}
 
 .menu-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    cursor: pointer;
+}
+.menu-card .producto{
+    object-fit: cover;
+}
+
+.contact-card {
+    background-color: #faf2e7;
+    border: 2px solid #e0d4c1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(69, 37, 21, 0.15);
+    border-color: #452511;
+}
+
+.contact-card h5 {
+    color: #452511;
+}
+
+.contact-icon {
+    transition: transform 0.3s ease;
+}
+
+.contact-card:hover .contact-icon {
+    transform: scale(1.1);
+}
+
+.btn-outline-success:hover,
+.btn-outline-danger:hover,
+.btn-outline-primary:hover,
+.btn-outline-warning:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+
+
+.footer-section {
+    background-color: #452511;
+    color: #faf2e7;
+    padding: 3rem 0 1rem 0;
+    margin-top: 3rem;
+}
+
+.footer-logo {
+    width: 120px;
+    height: auto;
+}
+
+.footer-title {
+    color: #faf2e7;
+    font-family: "Calistoga", serif;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-text {
+    color: #d4c4a8;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-link {
+    color: #d4c4a8;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #faf2e7;
+    text-decoration: none;
+}
+
+.footer-social {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #5a3419;
+    color: #faf2e7;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+}
+
+.social-link:hover {
+    background-color: #faf2e7;
+    color: #452511;
+    transform: translateY(-3px);
+}
+
+.footer-divider {
+    border-color: #5a3419;
+    margin: 2rem 0 1rem 0;
+}
+
+.footer-copyright {
+    color: #d4c4a8;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.footer-copyright strong {
+    color: #faf2e7;
+}
+
+@media (max-width: 768px) {
+    .footer-section {
+        padding: 2rem 0 1rem 0;
+        text-align: center;
+    }
+    
+    .footer-social {
+        justify-content: center;
+    }
+    
+    .footer-links {
+        text-align: center;
+    }
 }
 

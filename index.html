@@ -5,6 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Document</title>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
       <link rel="stylesheet" href="styles.css">
 
   </head>
@@ -12,49 +13,49 @@
     
    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar fixed-top">
   <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-          <img src="media/caudilloscafe/image.png" class="logo" alt="">
-      </a>
+     
+          <img src="media/caudilloscafe/logo2.png" class="logo" alt="">
+      
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mx-5 mb-2 mb-lg-0 gap-3">
           <li class="nav-item">
-            <a class="nav-link active fs-6" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link active fs-5" aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-6" href="#nosotros">Nosotros</a>
+            <a class="nav-link fs-5" href="#nosotros">Nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-6" href="#menu">Menu</a>
+            <a class="nav-link fs-5" href="#menu">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-6" href="#merch">Merch</a>
+            <a class="nav-link fs-5" href="#contacto">Contacto</a>
         </ul>
       </div>
     </div>
   </nav>
-
-  <section class="hero-section d-flex align-items-center justify-content-center text-center text-white position-relative" style="height: 100vh;">
-    
-    <div class="row justify-content-center">
-        <div class="col-lg-8 col-md-10">
-          <h1 class="display-2 fw-bold mb-4">Bienvenidos a Caudillos Café</h1>
-          <p class="lead mb-4 fs-4">Descubre el sabor auténtico del café helado, el favorito de la UAT.</p>
-          <a href="#menu" class="btn btn-lg px-5 py-3 fs-5 hero-button">Ver Menú</a>
+  <section class="hero-section hero-bg d-flex align-items-center justify-content-center text-center text-white position-relative" style="height: 100vh;">
+    <div class="position-absolute top-0 start-0 w-100 h-100 hero-overlay"></div>
+    <div class="container position-relative" style="z-index: 2;">
+      <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-10">
+            <h1 class="display-2 fw-bold mb-4">Bienvenidos a Caudillos Caffe</h1>
+            <p class="lead mb-4 fs-4 hero-text">Descubre el sabor auténtico del café helado, el favorito de la UAT.</p>
+            <a href="#menu" class="btn btn-lg px-4 py-3 fs-5 hero-button">Ver Menú</a>
+          </div>
         </div>
       </div>
-    </div>
   </section>
 
-  <section id="nosotros" class="py-5">
+  <section id="nosotros">
     <div class="container">
     <div class="row align-items-center">
     <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
       <h2 class="display-4 fw-bold mb-4 nosotros">Nosotros</h2>
           <p class="fs-5 mb-4">
-            <strong>Caudillos Café</strong> es un emprendimiento universitario que nació en el corazón de la 
+            <strong>Caudillos Caffe</strong> es un emprendimiento universitario que nació en el corazón de la 
             <strong>UAT</strong>, con la visión de llevar el mejor café helado
           a nuestra comunidad estudiantil.
           </p>
@@ -80,89 +81,202 @@
     </div>
         <div class="col-lg-6 col-md-12">
           <div class="text-center">
-            <div class="bg-light rounded-3 d-flex align-items-center justify-content-center" style="height: 400px;">
-              <p class="text-muted fs-4">Imagen de Nosotros</p>
-            </div>
-            <!-- al tener la imagen:
-            <img src="media/caudilloscafe/nosotros.jpg" alt="Caudillos Café - Nosotros" class="img-fluid rounded-3 shadow">
-            -->
-          </div>
+            
+              
+          
+            <img src="media/caudilloscafe/nosotros.png" alt="Caudillos Caffe - Nosotros" class="img-fluid rounded-3 shadow">
+    
         </div>
       </div>
     </div>
   </section>
 
-  <section id="menu" class="py-5"> 
+  <section id="menu"> 
     <div class="container">
       <div class="row">
         <div class="col-12 text-center mb-5">
            <h2 class="display-4 fw-bold">Nuestro Menú</h2>
-           <p class="fs-5 mb-4">Descubre nuestros productos estrella</p>
+           <p class="fs-5 mb-4">Descubre nuestros productos estrella.</p>
         </div>
       </div>
       <div class="row justify-content-center g-4">
-      <!-- Producto 1 -->
-      <div class="col-lg-4 col-md-6">
+             <div class="col-lg-4 col-md-6">
         <div class="card h-100 rounded-4 shadow-sm menu-card">
           <div class="card-body p-4 text-center">
-            <!-- Espacio para imagen -->
-            <div class="bg-light rounded-3 mb-3 d-flex align-items-center justify-content-center" style="height: 200px;">
-              <span class="text-muted">Imagen del producto</span>
+            <div class="bg-light rounded-3 mb-3 d-flex align-items-center justify-content-center overflow-hidden" style="height: 200px;">
+              <img class="img-fluid w-100 h-100" src="./media/caudilloscafe/cafe-frio.jpg" alt="Café Frío" style="object-fit: cover;">
             </div>
-            <h5 class="card-title text-white fw-bold mb-3">Café Americano</h5>
+            <h5 class="card-title text-white fw-bold mb-3">Café Frío</h5>
             <p class="card-text text-white-50 mb-3">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil optio eos nisi! Tempora itaque voluptas, et earum ea ad?
-            </p>
+            Café refrescante y suave, perfecto para tomar en cualquier momento del día.
             <div class="price">
-              <span class="h4 text-warning fw-bold">$25</span>
+              <span class="h4 fw-bold price">$25</span>
             </div>
           </div>
         </div>
       </div>
-      
-      <!-- Producto 2 -->
       <div class="col-lg-4 col-md-6">
         <div class="card h-100 rounded-4 shadow-sm menu-card">
           <div class="card-body p-4 text-center">
-            <!-- Espacio para imagen -->
             <div class="bg-light rounded-3 mb-3 d-flex align-items-center justify-content-center" style="height: 200px;">
-              <span class="text-muted">Imagen del producto</span>
+            <img class="img-fluid w-100 h-100" src="./media/caudilloscafe/shot-caramelo.jpg" alt="shot-caramelo" style="object-fit: cover;">
             </div>
-            <h5 class="card-title text-white fw-bold mb-3">Latte</h5>
+            <h5 class="card-title text-white fw-bold mb-3">Shot de Caramelo</h5>
             <p class="card-text text-white-50 mb-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil optio eos nisi! Tempora itaque voluptas, et earum ea ad?
+              Dulce y ligero. Un shot con sabor a caramelo que da un toque rápido de energía.
             </p>
             <div class="price">
-              <span class="h4 text-warning fw-bold">$35</span>
+              <span class="h4 fw-bold price">$10</span>
             </div>
           </div>
         </div>
       </div>
-      
-      <!-- Producto 3 -->
       <div class="col-lg-4 col-md-6">
         <div class="card h-100 rounded-4 shadow-sm menu-card">
           <div class="card-body p-4 text-center">
-            <!-- Espacio para imagen -->
             <div class="bg-light rounded-3 mb-3 d-flex align-items-center justify-content-center" style="height: 200px;">
-              <span class="text-muted">Imagen del producto</span>
+              <img class="img-fluid w-100 h-100" src="./media/caudilloscafe/shot-chocolate.jpg" alt="shot-chocolate" style="object-fit: cover;">
             </div>
-            <h5 class="card-title text-white fw-bold mb-3">Cappuccino</h5>
+            <h5 class="card-title text-white fw-bold mb-3">Shot de Chocolate</h5>
             <p class="card-text text-white-50 mb-3">
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil optio eos nisi! Tempora itaque voluptas, et earum ea ad?
+             Sabor a chocolate intenso en una porción pequeña. Ideal para un antojo rápido.
+            </p>
             <div class="price">
-              <span class="h4 text-warning fw-bold">$30</span>
+              <span class="h4 fw-bold price">$10</span>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
-
     </div>
   </section>
 
+
+  <section id="contacto" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-5">
+          <h2 class="display-4 fw-bold">Contáctanos</h2>
+          <p class="fs-5 mb-4">Encuentra todas las formas de comunicarte con nosotros:</p>
+        </div>
+      </div>
+      <div class="row justify-content-center g-4">
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100 rounded-4 shadow-sm contact-card text-center p-4">
+            <div class="contact-icon mb-3">
+              <i class="fab fa-whatsapp fa-3x text-success"></i>
+            </div>
+            <h5 class="fw-bold mb-3">WhatsApp</h5>
+            <p class="text-muted mb-3">Escríbenos directamente</p>
+            <a href="https://wa.me/528341234567" target="_blank" class="btn btn-outline-success rounded-pill">
+              Escribir
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100 rounded-4 shadow-sm contact-card text-center p-4">
+            <div class="contact-icon mb-3">
+              <i class="fab fa-instagram fa-3x text-danger"></i>
+            </div>
+            <h5 class="fw-bold mb-3">Instagram</h5>
+            <p class="text-muted mb-3">Síguenos en redes</p>
+            <a href="https://instagram.com/caudilloscafe" target="_blank" class="btn btn-outline-danger rounded-pill">
+              Seguir
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100 rounded-4 shadow-sm contact-card text-center p-4">
+            <div class="contact-icon mb-3">
+              <i class="fas fa-envelope fa-3x text-primary"></i>
+            </div>
+            <h5 class="fw-bold mb-3">Correo</h5>
+            <p class="text-muted mb-3">Envíanos un email</p>
+            <a href="mailto:contacto@caudilloscafe.com" class="btn btn-outline-primary rounded-pill">
+              Escribir
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100 rounded-4 shadow-sm contact-card text-center p-4">
+            <div class="contact-icon mb-3">
+              <i class="fas fa-map-marker-alt fa-3x text-warning"></i>
+            </div>
+            <h5 class="fw-bold mb-3">Ubicación</h5>
+            <p class="text-muted mb-3">UAT Tampico</p>
+            <a href="https://maps.google.com/?q=UAT+CU+SUR" target="_blank" class="btn btn-outline-warning rounded-pill">
+              Ver mapa
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-section">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand mb-4">
+            <img src="media/caudilloscafe/logo2.png" alt="Caudillos Café" class="footer-logo mb-3">
+            <p class="footer-text">
+              El café helado favorito de la UAT. Emprendimiento universitario que lleva sabor y energía a nuestra comunidad estudiantil.
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-lg-2 col-md-6">
+          <h5 class="footer-title mb-3">Enlaces</h5>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">Inicio</a></li>
+            <li><a href="#nosotros" class="footer-link">Nosotros</a></li>
+            <li><a href="#menu" class="footer-link">Menú</a></li>
+            <li><a href="#contacto" class="footer-link">Contacto</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-title mb-3">Productos</h5>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">Café Frío</a></li>
+            <li><a href="#" class="footer-link">Shot de Caramelo</a></li>
+            <li><a href="#" class="footer-link">Shot de Chocolate</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-title mb-3">Síguenos</h5>
+          <div class="footer-social mb-3">
+            <a href="https://wa.me/528341234567" target="_blank" class="social-link">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://instagram.com/caudilloscafe" target="_blank" class="social-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="mailto:contacto@caudilloscafe.com" class="social-link">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+          <p class="footer-text small">
+            <i class="fas fa-map-marker-alt me-2"></i>
+            UAT Tampico, Tamaulipas
+          </p>
+        </div>
+      </div>
+      
+      <hr class="footer-divider">
+      
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="footer-copyright">
+            © 2025 <strong>Caudillos Caffe</strong>. Todos los derechos reservados. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   </body>
   </html>
