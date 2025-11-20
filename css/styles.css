@@ -37,7 +37,7 @@ p{
 }
 
 .hero-bg {
-    background-image: url("./img/caudilloscafe/nosotros.jpeg");
+    background-image: url("../img/caudilloscafe/hero.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -231,7 +231,7 @@ p{
     margin: 0;
     font-weight: 500;
 }
-@img (max-width: 768px) {
+@media (max-width: 768px) {
     .stats-overlay {
         bottom: -25px;
         left: 20px;
@@ -246,7 +246,7 @@ p{
         font-size: 0.75rem;
     }
 }
-@img (max-width: 768px) {
+@media (max-width: 768px) {
     .footer-section {
         padding: 2rem 0 1rem 0;
         text-align: center;
